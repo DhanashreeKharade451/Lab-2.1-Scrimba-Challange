@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.Nw_4b6YTDeSjVKB2xHQ4jQHaHa?pid=Api&P=0&h=220" alt="Accessible Design Co. logo">
+
+        </div>
+        <nav role="navigation" aria_label="main navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="About">About Us</a></li>
+                <li><a href="services">Services</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    
+    <main>
+        <!--Hero section-->
+        <section id="Home" class="hero">
+            <h1> Designing for Everyone</h1>
+            <p>Accessible,responsive and inclusive web solutions.</p>
+            <button aria-label="Learn about our services">Get Started</button>
+        </section>
+
+        <!-- About Section-->
+         <section id="about">
+            <article>
+                <h2>About Us</h2>
+                <p>
+                    Accessible Design Co. creates inclusive digital experiences using modern
+                    web standards, accessibility best practices, and responsive design.
+                </p>
+            </article>
+         </section>
+
+         <!--Service Section-->
+         <section id="services">
+            <h2>Our Services</h2>
+
+            <div class="services-grid" >
+                <article>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPTa8daM8iDJLBmJp8hLNFm0jCMTOmy-AIJw&s" alt="Availabel Services">
+                    <h3>Web Accessibility</h3>
+                    <p>WCAG-complaint designs for inclusive degital experiences.</p>
+                </article>
+
+                <article>
+                    <img src="https://via.placeholder.com/80" alt="">
+                    <h3>Responsive Layouts</h3>
+                    <p>Mobil-first layout using Flexbox and Grid</p>
+                </article>
+            </div>
+         </section>
+         <!--contact-->
+         <section id="contact">
+            <h2 id="contact-heading">Register With US</h2>
+            <form area-labelledby ="contact-heading">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input id="name" type="text" placeholder="your Name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="your Email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input id="subject" type="text" placeholder="Subject">
+                </div>
+
+                <div class="form-group">
+                    <label for="message"> Message</label>
+                    <textarea name="Message" id="message" rows="5" placeholder="Write your Query"></textarea>
+                </div>
+
+                <button type="submit">submit</button>
+
+            </form>
+         </section>
+    </main>
+
+    <!-- Footer Section-->
+    <footer>
+        <h1>
+            <p>2025 Accessible Design co. </p>
+            <p>Follow us on social media</p>
+        </h1>
+    </footer>
+</body>
+</html>
